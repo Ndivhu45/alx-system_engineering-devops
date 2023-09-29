@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-echo "PID   PPID  USER    COMMAND"
+#list all pids
 
-ps axo pid,ppid,user,cmd --forest
+ps -auxf
