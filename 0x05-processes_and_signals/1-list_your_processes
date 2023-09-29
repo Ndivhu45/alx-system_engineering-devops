@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+echo "PID   PPID  USER    COMMAND"
+
+ps axo pid,ppid,user,cmd --forest
