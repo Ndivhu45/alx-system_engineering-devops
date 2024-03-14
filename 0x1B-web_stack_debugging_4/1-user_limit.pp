@@ -9,4 +9,3 @@ exec { 'change-os-configuration-for-holberton-user':
   path        => ['/usr/bin', '/bin'],
   returns     => [0, 1]
 }
-© 2020 GitHub, Inc.i
